@@ -8,13 +8,13 @@
 
 @layer components {
 	.page {
-		@apply carousel-item h-full w-screen bg-base-100 text-left;
+		@apply carousel-item h-full w-full bg-base-100 text-left;
 	}
 	.all-page {
 		@apply h-screen w-screen bg-base-100;
 	}
 	.spacer {
-		@apply h-[1vw];
+		@apply h-xl;
 	}
 	.full {
 		@apply h-full w-full;
@@ -22,16 +22,35 @@
 	.flex-center-col {
 		@apply flex flex-col items-center justify-center text-center;
 	}
+	/* 縦の方が長い場合 */
+	@media screen and (max-aspect-ratio: 16/9) {
+		.item {
+			@apply w-full h-auto;
+		}
+		:root {
+			--base-size: 1vw;
+		}
+	}
+	/* 横の方が長い場合 */
+	@media screen and (min-aspect-ratio: 16/9) {
+		.item {
+			@apply h-full w-auto;
+		}
+		:root {
+			--base-size: calc(1vh / 9 * 16);
+		}
+	}
+	  
 }
 html {
 	scroll-behavior: smooth;
 }
 h1 {
-	@apply text-[5vw] font-bold;
+	@apply text-5xl font-bold;
 }
 h2 {
-	@apply text-[3vw] font-bold;
+	@apply text-3xl font-bold;
 }
 p {
-	@apply text-[1.5vw];
+	@apply text-xl;
 }

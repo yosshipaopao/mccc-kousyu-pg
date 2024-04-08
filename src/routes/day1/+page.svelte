@@ -22,7 +22,7 @@
 		.drawer-content.w-screen.h-screen.flex-center-col.bg-base-300
 			label.btn.btn-circle.btn-outline.btn-primary.drawer-button.fixed.top-4.left-4.p-2(for="drawer")
 				Icon.full(icon="ic:outline-menu")
-			.max-w-screen.max-h-screen.aspect-video.carousel.carousel-vertical.gap-2
+			.item.aspect-video.carousel.carousel-vertical.gap-2
 				+each("pages.flat(Infinity) as Page")
 					.page(id="{Page.id}")
 						<Page.default/>
