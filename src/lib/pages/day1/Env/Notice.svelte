@@ -9,5 +9,5 @@
         .spacer
         p もしこのような画像が表示されたらすべてインストールする。
         .spacer
-        img.object-cover(class="max-h-[30vw] w-auto",src="/assets/env/notice.png",alt="")
+        img.object-cover(class="max-h-30 w-auto",src="/assets/env/notice.png",alt="")
 </template>

@@ -12,6 +12,6 @@
 			| からインストーラーをダウンロード
 		.spacer
 		.flex.flex-row.gap-4
-			img.object-cover(class="max-h-[25vw] w-auto",src="/assets/env/download_1.png",alt="")
-			img.object-cover(class="max-h-[25vw] w-auto",src="/assets/env/download_2.png",alt="")
+			img.object-cover(class="max-h-25 w-auto",src="/assets/env/download_1.png",alt="")
+			img.object-cover(class="max-h-25 w-auto",src="/assets/env/download_2.png",alt="")
 </template>

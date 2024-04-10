@@ -6,5 +6,5 @@
 <template lang="pug">
     .full.relative.flex-center-col
         h2.absolute.top-4.left-4 画面の使い方
-        img.object-cover(class="max-h-[45vw]",src="/assets/usage/UI.png", alt="画面の使い方")
+        img.object-cover(class="max-h-45",src="/assets/usage/UI.png", alt="画面の使い方")
 </template>

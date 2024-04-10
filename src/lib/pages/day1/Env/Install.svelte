@@ -9,5 +9,5 @@
         .spacer
         p ダウンロードしたファイルを実行してインストール。
         .spacer
-        img.object-cover(class="max-h-[30vw] w-auto",src="/assets/env/install.png",alt="")
+        img.object-cover(class="max-h-30 w-auto",src="/assets/env/install.png",alt="")
 </template>

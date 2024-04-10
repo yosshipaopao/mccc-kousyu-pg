@@ -14,6 +14,6 @@
         p で保存
         .spacer
         p ボードを選択して<code>upload</code>をクリック
-        img.object-contain(class="max-h-[30vw]",src="/assets/usage/upload.png", alt="画面の使い方")
+        img.object-contain(class="max-h-30",src="/assets/usage/upload.png", alt="画面の使い方")
 
 </template>

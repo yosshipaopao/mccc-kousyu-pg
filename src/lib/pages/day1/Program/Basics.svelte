@@ -11,7 +11,7 @@
 <template lang="pug">
 	.full.p-4.flex.flex-col
         h2 基本的な関数
-        .full.grid.grid-cols-2.grid-rows-2.gap-4
+        .full.grid.grid-cols-2.grid-rows-2.gap-2
             .full.bg-base-200.rounded-box.p-2
                 CodeBlock(code="{code_delay}" language="arduino")
                 p 指定した時間（ミリ秒）だけ処理を停止する関数。引数は停止する時間。

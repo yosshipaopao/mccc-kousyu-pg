@@ -9,5 +9,5 @@
         .spacer
         p 実際に実行できたら成功です。
         .spacer
-        img.object-cover(class="max-h-[30vw] w-auto",src="/assets/env/run.png",alt="")
+        img.object-cover(class="max-h-30 w-auto",src="/assets/env/run.png",alt="")
 </template>
