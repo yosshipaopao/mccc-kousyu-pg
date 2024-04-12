@@ -22,7 +22,7 @@
 	.drawer
 		input.drawer-toggle(id="drawer",type="checkbox")
 		.drawer-content.w-screen.h-screen.flex-center-col.bg-base-300
-			label.btn.btn-circle.btn-outline.btn-primary.drawer-button.fixed.top-4.left-4.p-2(for="drawer")
+			label.btn.btn-circle.btn-outline.btn-primary.drawer-button.fixed.top-3.left-3.p-1(for="drawer")
 				Icon.full(icon="ic:outline-menu")
 			.item.aspect-video.carousel.carousel-vertical.gap-2
 				+each("pages.flat(Infinity) as Page")

@@ -7,5 +7,7 @@
             a(href="/day1") Day 1
         li
             a(href="/day2") Day 2
+        li
+            a(href="/day3") Day 3
 
 </template>
