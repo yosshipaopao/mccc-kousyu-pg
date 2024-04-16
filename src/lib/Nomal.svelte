@@ -36,4 +36,6 @@
 					a(href="/") Home
 				li
 					a(href="{$page.url.pathname}/print") Print
+				li
+					a(href="{$page.url.pathname}/presen") Presen
 </template>

@@ -1,5 +1,3 @@
 import type { ComponentType, SvelteComponent } from 'svelte';
-export type Pages = (
-	| { id: string; name: string; default: ComponentType<SvelteComponent> }
-	| Pages
-)[];
+export type Page = { id: string; name: string; default: ComponentType<SvelteComponent> };
+export type Pages = (Page| Pages)[];

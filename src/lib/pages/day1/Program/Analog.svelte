@@ -45,7 +45,7 @@
                     | ピンに出力される電圧は、
                     code 0
                     | から
-                    code.text-error 255
+                    code.text-error 254
                     | の範囲で指定する。
                 p
                     | 出力される電圧は、
