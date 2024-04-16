@@ -8,7 +8,7 @@
 	{#each pages as Page}
 		<li>
 			{#if Page instanceof Array}
-				<details open>
+				<details>
 					<summary>
 						{#if !(Page[0] instanceof Array)}
 							{Page[0].name}
