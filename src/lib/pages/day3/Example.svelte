@@ -27,7 +27,7 @@ const int DecorationRPIN = 18;
 #define PIN_SIZE 4
 #define PINS {32,35,34,39}
 
-//// 微調整ようの変数
+//// 微調整用の変数
 // 通常走行の速度
 const int RUN_SP=66;
 // ゆっくり曲がるときの速度
@@ -54,7 +54,7 @@ class Sensor{
         pinMode(pins[i],INPUT);
       }
     };
-    //　値を読んで一時保存場所にセット
+    // 値を読んで一時保存場所にセット
     void set(){      
       rep(i,sizeof(pins))data[i]=analogRead(pins[i]);
     }
@@ -130,7 +130,7 @@ class Motor{
 // turn(left_speed,right_speed) で回転
 class Decoration{
   private:
-    // ESP32Servo の ラッパー
+    // Servo の ラッパー
     Servo DecorationL;
     Servo DecorationR;
   public:
