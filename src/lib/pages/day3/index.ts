@@ -1,5 +1,5 @@
 import type { Pages } from '$lib/pages';
 import * as Title from './Title.svelte';
-
-export default [Title] satisfies Pages;
+import * as Example from './Example.svelte';
+export default [Title,Example] satisfies Pages;
 

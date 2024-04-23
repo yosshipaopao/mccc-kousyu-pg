@@ -12,7 +12,6 @@ bool n = false;`;
 <template lang="pug">
 	.full.p-4.flex.flex-col
         h2 Others
-        p.text-warning 数値を扱う型。
         .full.grid.grid-cols-2.gap-4
             .full.bg-base-200.rounded-box.p-2
                 CodeBlock(code="{code_bool}" language="arduino" headerClasses="h-4 p-1 bg-base-300")
